@@ -2,7 +2,7 @@
 // Note: type annotations allow type checking and IDEs autocompletion
 
 const lightCodeTheme = require('prism-react-renderer/themes/github');
-const darkCodeTheme = require('prism-react-renderer/themes/dracula');
+const darkCodeTheme = require('prism-react-renderer/themes/vsDark');
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
@@ -78,7 +78,7 @@ const config = {
       // Replace with your project's social card
       image: 'img/docusaurus-social-card.jpg',
       navbar: {
-        title: 'DEVLOG',
+        title: 'soso01',
         logo: {
           alt: 'My Site Logo',
           src: 'img/logo.svg',
@@ -114,8 +114,8 @@ const config = {
         style: 'dark',
       },
       prism: {
-        theme: lightCodeTheme,
-        darkTheme: darkCodeTheme,
+        theme: darkCodeTheme,
+        // darkTheme: darkCodeTheme,
       },
     }),
 };

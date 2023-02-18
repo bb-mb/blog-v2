@@ -5,7 +5,12 @@
  */
 
 /* You can override the default Infima variables here. */
-@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300;400;500;700;900&display=swap');
+
+
+html {
+  -webkit-font-smoothing: auto;
+}
 
 :root {
   --ifm-color-primary: #1a3f70;
@@ -16,6 +21,9 @@
   --ifm-color-primary-lighter: #1e4881;
   --ifm-color-primary-lightest: #225292;
   --ifm-code-font-size: 95%;
+
+  --ifm-font-family-base: 'Noto Sans KR', sans-serif;
+
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.1);
 }
 
@@ -28,11 +36,7 @@
   --ifm-color-primary-light: #1abbff;
   --ifm-color-primary-lighter: #26beff;
   --ifm-color-primary-lightest: #4dcaff;
-  --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
-}
-
-* {
-  font-family: 'Noto Sans KR', sans-serif;
+  /* --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3); */
 }
 
 .theme-doc-sidebar-container {
