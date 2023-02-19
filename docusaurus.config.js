@@ -110,9 +110,6 @@ const config = {
           autoCollapseCategories: true,
         },
       },
-      footer: {
-        style: 'dark',
-      },
       prism: {
         theme: darkCodeTheme,
         // darkTheme: darkCodeTheme,
