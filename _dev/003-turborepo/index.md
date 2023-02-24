@@ -11,8 +11,8 @@ last_update:
 
 해봐야 할 것들을 리스트업
 
-- [ ] 핵심 기능 요약
-- [ ] nextjs, react-native 앱 2개 설정
+- [x] 핵심 기능 요약
+- [x] nextjs, server 앱 2개 설정
 - [ ] 최상단의 eslint, tsconfig 설정 가져와서 각 앱에서 사용하기
 - [ ] 각 앱별 alias 설정
 - [ ] 테스트 실행
