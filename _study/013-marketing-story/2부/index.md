@@ -1,5 +1,7 @@
 ---
 slug: 2
+sidebar_position: 1
+sidebar_label: 개요
 last_update:
   date: 2023-02-19
 ---
