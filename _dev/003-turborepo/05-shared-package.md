@@ -50,7 +50,7 @@ export default function Home() {
 
 일반 패키지 사용하듯 import 해서 쓰면 된다.
 
-![01.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/da9ef6cb-8a26-44a8-b45f-39a3b53ee503/01.png)
+![result](./img/01.png)
 
 작동 확인
 
