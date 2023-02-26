@@ -68,6 +68,7 @@ my-lib을 수정하자
   "name": "@packages/my-lib",
   "version": "1.0.0",
   "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
   "license": "MIT",
   "private": true,
   "dependencies": {
