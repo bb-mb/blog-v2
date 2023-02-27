@@ -10,7 +10,7 @@ last_update:
 ---
 
 개인용 북마크
-![awesome-devteam](https://github.com/leehosung/awesome-devteam)
+[awesome-devteam](https://github.com/leehosung/awesome-devteam)
 
 ### 개발
 
