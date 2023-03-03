@@ -45,17 +45,11 @@ const config = {
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
         },
-      }),
-    ],
-    // google analytics 설정
-    [
-      '@docusaurus/preset-classic',
-      {
         gtag: {
           trackingID: 'G-SY70FWJLL5',
           anonymizeIP: true,
         },
-      },
+      }),
     ],
   ],
 
