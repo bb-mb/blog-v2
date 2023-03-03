@@ -47,6 +47,16 @@ const config = {
         },
       }),
     ],
+    // google analytics 설정
+    [
+      '@docusaurus/preset-classic',
+      {
+        gtag: {
+          trackingID: 'G-SY70FWJLL5',
+          anonymizeIP: true,
+        },
+      },
+    ],
   ],
 
   plugins: [
