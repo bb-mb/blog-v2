@@ -1,3 +1,8 @@
+---
+last_update:
+  date: 2023-03-05
+---
+
 # nest prisma 연결
 
 [깃헙 링크](https://github.com/soso01/cockroachdb-test)
