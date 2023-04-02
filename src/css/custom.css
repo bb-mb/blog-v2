@@ -5,11 +5,11 @@
  */
 
 /* You can override the default Infima variables here. */
-@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300;400;500;700;900&display=swap');
-
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300;400;500;700;900&display=swap");
 
 html {
   -webkit-font-smoothing: auto;
+  line-height: 1.6;
 }
 
 pre code {
@@ -25,14 +25,28 @@ pre code {
   --ifm-color-primary-lighter: #1e4881;
   --ifm-color-primary-lightest: #225292;
   --ifm-code-font-size: 95%;
+  --ifm-leading: 0.7rem;
 
-  --ifm-font-family-base: 'Noto Sans KR', sans-serif;
+  --ifm-font-family-base: "Noto Sans KR", sans-serif;
 
   /* --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.1); */
 }
 
+.markdown h1:first-child {
+  --ifm-h1-font-size: 2.5rem;
+}
+.markdown > h2 {
+  --ifm-h2-font-size: 1.7rem;
+  margin-top: 4rem;
+  margin-bottom: 1rem;
+}
+.markdown > h3 {
+  --ifm-h3-font-size: 1.3rem;
+  margin-top: 2rem;
+}
+
 /* For readability concerns, you should choose a lighter palette in dark mode. */
-[data-theme='dark'] {
+[data-theme="dark"] {
   --ifm-color-primary: #00b3ff;
   --ifm-color-primary-dark: #00a1e6;
   --ifm-color-primary-darker: #0098d9;
